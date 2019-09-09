@@ -1,0 +1,6 @@
+{% if site.author %}
+<p class="hero-avatar"><a href="#" onclick="collectchat.open()"><img src="{{ site.baseurl }}/assets/images/{{ site.author.image }}" alt="{{ site.author.name }}'s Picture" class="avatar" /></a></p>
+    <h2 class="hero-title">{{ site.author.greetings }}</h2>
+<p class="hero-description">My name is <a href="/about" target="_blank"><strong style="text-decoration: underline; color: black">Ajay Banstola</strong></a>. I am a csit student<a href="#" onclick="collectchat.open()"><strong style="text-decoration: underline; color: black">Ask Ajay</strong></a></p>
+{% endif %}
+{% include social-links.html %}
