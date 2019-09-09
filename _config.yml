@@ -225,7 +225,7 @@ jekyll-crosspost_to_medium:
 
 algolia:
   application_id: 'X1A8Z9Y4AQ'
-  index_name: 'blog.polarize.ai'
+  index_name: 'ajaybanstola.com.np'
   search_only_api_key: '842730120f989ff88dae38137ebd09be'
   files_to_exclude:
     - index.html
