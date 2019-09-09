@@ -1,15 +1,15 @@
 # Site setings
-name: "Ajay Banstola"
-description: "A personal blog"
-meta_description: "A personal blog about Javascript, Information technology and Front end development. Useful for programmers and software developers."
-logo: "assets/images/logo.png"
-favicon: "assets/images/favicon.ico"
+name: 'polarize.ai'
+description: 'A personal blog about smart IoT now - a top secret, world changing, machine learning stealth project to be incubated later given resources.'
+meta_description: 'A personal blog about smart IoT - a top secret, world changing, machine learning stealth project to be incubated later given resources.'
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.ico'
 baseurl:
 production_url: https://ajaybanstola.com.np/
-disqus: "Ajay Banstola"
-mailchimp_url: "ajay.banstola@gmail.com"
+disqus: 'ajaybanstola.com.np'
+mailchimp_url: 'https://googlemail.us3.list-manage.com/subscribe/post?u=66cee5cf71db1352106476b32&amp;id=7e75fbb25c'
 cover_image: cover_1.jpg
-lang: "en"
+lang: 'en'
 
 # Add your GA Tracking Id
 ga_analytics: UA-144918260-1
@@ -17,31 +17,31 @@ url: "https://ajaybanstola.com.np"
 
 # Author
 author:
-  name: "Ajay Banstola"
-  image: "authorimage.jpg"
-  greetings: "Hi there!"
-  description: "My name is Ajay Banstola."
-  bio: "I am an It student currently studying at Deerwalk Institute of Technology."
-  twitter: "hyperLoafer"
+  name: 'Helmut Hoffer von Ankershoffen né Oertel'
+  image: 'authorimage.jpg'
+  greetings: 'Hi there!'
+  description: "My name is Helmut Hoffer von Ankershoffen né Oertel. I'm a technical manager and software engineer in Berlin, working in the Internet economy since 1997."
+  bio: 'I am a technical manager and software engineer in Berlin working as founder, CEO or CTO since 1997.'
+  twitter: 'helmut_hva'
 
 # Twitter
 twitter:
-  username: "hyperlLoafer"
-  card: "summary"
+  username: 'helmut_hva'
+  card: 'summary'
 
 social:
-  name: "Ajay Banstola"
+  name: 'Helmut Hoffer von Ankershoffen né Oertel'
   links:
-    - "https://twitter.com/hyperLoafer"
-    - "https://www.linkedin.com/in/ajay-banstola-aaa002128/"
-    - "https://github.com/ajay-banstola"
+    - 'https://twitter.com/helmut_hva'
+    - 'https://www.linkedin.com/in/helmuthva'
+    - 'https://github.com/helmuthva'
 
 # Social links
-social_twitter: "ajay-banstola"
-social_github: "ajay-banstola"
-social_instagram: "a_jaaee"
-social_linkedin: "ajay-banstola-aaa002128"
-social_reddit: "reddit"
+social_twitter: 'helmut_hva'
+social_github: 'helmuthva'
+social_instagram: 'helmuthva'
+social_linkedin: 'helmuthva'
+social_reddit: 'helmuthva'
 
 # Navigation
 navigation:
@@ -62,10 +62,12 @@ plugins_dir:
   - jekyll-crosspost-to-medium
   - jekyll-twitter-plugin
 
+
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
 # The values here represent the defaults if nothing is set
 pagination:
+
   # Site-wide kill switch, disabled here it doesn't run at all
   enabled: true
 
@@ -73,37 +75,37 @@ pagination:
   debug: false
 
   # The default document collection to paginate if nothing is specified ('posts' is default)
-  collection: "posts"
+  collection: 'posts'
 
   # How many objects per paginated page, used to be `paginate` (default: 0, means all)
   per_page: 5
 
   # The permalink structure for the paginated pages (this can be any level deep)
-  permalink: "/page/:num/" # Pages are index.html inside this folder (default)
+  permalink: '/page/:num/' # Pages are index.html inside this folder (default)
   #permalink: '/page/:num.html' # Pages are simple html files
   #permalink: '/page/:num' # Pages are html files, linked jekyll extensionless permalink style.
 
   # Optional the title format for the paginated pages (supports :title for original page title, :num for pagination page number, :max for total number of pages)
-  title: ":title - page :num"
+  title: ':title - page :num'
 
   # Limit how many pagenated pages to create (default: 0, means all)
   limit: 0
 
   # Optional, defines the field that the posts should be sorted on (omit to default to 'date')
-  sort_field: "date"
+  sort_field: 'date'
 
   # Optional, sorts the posts in reverse order (omit to default decending or sort_reverse: true)
-  #  sort_reverse: true
+#  sort_reverse: true
 
   # Optional, the default category to use, omit or just leave this as 'posts' to get a backwards-compatible behavior (all posts)
-  category: "posts"
+  category: 'posts'
 
   # Optional, the default tag to use, omit to disable
-  tag: ""
+  tag: ''
 
   # Optional, the default locale to use, omit to disable (depends on a field 'locale' to be specified in the posts,
   # in reality this can be any value, suggested are the Microsoft locale-codes (e.g. en_US, en_GB) or simply the ISO-639 language code )
-  locale: ""
+  locale: ''
 
   # Optional,omit or set both before and after to zero to disable.
   # Controls how the pagination trail for the paginated pages look like.
@@ -117,7 +119,7 @@ pagination:
 
   # Optional, the default name of the index file for generated pages (e.g. 'index.html')
   # Without file extension
-  indexpage: "index"
+  indexpage: 'index'
 
 ############################################################
 
@@ -125,6 +127,7 @@ pagination:
 # Site configuration for the Auto-Pages feature
 # The values here represent the defaults if nothing is set
 autopages:
+
   # Site-wide kill switch, disable here and it doesn't run at all
   enabled: true
 
@@ -133,27 +136,27 @@ autopages:
     enabled: true
     # Optional, the list of layouts that should be processed for every category found in the site
     layouts:
-      - "autopage_category.html"
+      - 'autopage_category.html'
     # Optional, the title that each category paginate page should get (:cat is replaced by the Category name)
-    title: "Posts in category :cat"
+    title: 'Posts in category :cat'
     # Optional, the permalink for the  pagination page (:cat is replaced),
     # the pagination permalink path is then appended to this permalink structure
-    permalink: "/category/:cat"
+    permalink: '/category/:cat'
 
   # Collection pages, omit to disable
   collections:
     enabled: false
     layouts:
-      - "autopage_collection.html"
-    title: "Posts in collection :coll" # :coll is replaced by the collection name
-    permalink: "/collection/:coll"
+      - 'autopage_collection.html'
+    title: 'Posts in collection :coll' # :coll is replaced by the collection name
+    permalink: '/collection/:coll'
 
   # Tag pages, omit to disable
   tags:
     layouts:
-      - "tag.html"
-    title: "Posts tagged with :tag" # :tag is replaced by the tag name
-    permalink: "/tag/:tag"
+      - 'tag.html'
+    title: 'Posts tagged with :tag' # :tag is replaced by the tag name
+    permalink: '/tag/:tag'
 
 # Permalinks
 permalink: /:title
@@ -162,7 +165,7 @@ permalink: /:title
 markdown: kramdown
 
 kramdown:
-  footnote_backlink: "&#8617;&#65038;"
+  footnote_backlink: '&#8617;&#65038;'
 
 target-blank:
   add_css_classes: external-link
@@ -187,28 +190,28 @@ imageoptim:
   verbose: false
 
 jekyll-minifier:
-  preserve_php: true # Default: false
-  remove_spaces_inside_tags: true # Default: true
-  remove_multi_spaces: true # Default: true
-  remove_comments: true # Default: true
-  remove_intertag_spaces: true # Default: false
-  remove_quotes: false # Default: false
-  compress_css: true # Default: true
-  compress_javascript: true # Default: true
-  compress_json: true # Default: true
-  simple_doctype: false # Default: false
-  remove_script_attributes: false # Default: false
-  remove_style_attributes: false # Default: false
-  remove_link_attributes: false # Default: false
-  remove_form_attributes: false # Default: false
-  remove_input_attributes: false # Default: false
+  preserve_php: true                # Default: false
+  remove_spaces_inside_tags: true   # Default: true
+  remove_multi_spaces: true         # Default: true
+  remove_comments: true             # Default: true
+  remove_intertag_spaces: true      # Default: false
+  remove_quotes: false              # Default: false
+  compress_css: true                # Default: true
+  compress_javascript: true         # Default: true
+  compress_json: true               # Default: true
+  simple_doctype: false             # Default: false
+  remove_script_attributes: false   # Default: false
+  remove_style_attributes: false    # Default: false
+  remove_link_attributes: false     # Default: false
+  remove_form_attributes: false     # Default: false
+  remove_input_attributes: false    # Default: false
   remove_javascript_protocol: false # Default: false
-  remove_http_protocol: false # Default: false
-  remove_https_protocol: false # Default: false
-  preserve_line_breaks: false # Default: false
-  simple_boolean_attributes: false # Default: false
-  compress_js_templates: false # Default: false
-  preserve_patterns: # Default: (empty)
+  remove_http_protocol: false       # Default: false
+  remove_https_protocol: false      # Default: false
+  preserve_line_breaks: false       # Default: false
+  simple_boolean_attributes: false  # Default: false
+  compress_js_templates: false      # Default: false
+  preserve_patterns:                # Default: (empty)
   uglifier_args:
     harmony: true
 
@@ -217,13 +220,13 @@ jekyll-crosspost_to_medium:
   cache: .jekyll-crosspost_to_medium
   status: draft
   license: all-rights-reserved
-  text: "<p><i>Your (optional) signoff for the post.</i></p>"
+  text: '<p><i>Your (optional) signoff for the post.</i></p>'
   backdate: true
 
 algolia:
-  application_id: "X1A8Z9Y4AQ"
-  index_name: "blog.polarize.ai"
-  search_only_api_key: "842730120f989ff88dae38137ebd09be"
+  application_id: 'X1A8Z9Y4AQ'
+  index_name: 'blog.polarize.ai'
+  search_only_api_key: '842730120f989ff88dae38137ebd09be'
   files_to_exclude:
     - index.html
     - search.html
