@@ -5,7 +5,7 @@ meta_description: "A personal blog about Javascript, Information technology and 
 logo: "assets/images/logo.png"
 favicon: "assets/images/favicon.ico"
 baseurl:
-production_url: https://ajay.banstola.com.np/
+production_url: https://ajaybanstola.com.np/
 disqus: "Ajay Banstola"
 mailchimp_url: "ajay.banstola@gmail.com"
 cover_image: cover_1.jpg
