@@ -1,13 +1,34 @@
+// Space
+$spacing-unit:       26px;
+
 // Fonts
-$font-primary: 'Karla', sans-serif;
+$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$title-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-size:   18px;
+$base-font-weight: 400 !default;
+$base-line-height: 1.5 !default;
+$small-font-size:  $base-font-size * 0.875 !default;
 
 // Colors
-$color-accent: #B4AEA2;
-$color-button: #ff813f;
-$gray: #a1a1a7;
-$gray-dark: #535358;
-$gray-darkest: #2f313d;
-$gray-light: #d8d8d8;
-$gray-lighter: #e5e7e9;
-$gray-lightest: #f9f9fb;
-$yellow: #fffac4;
+$toolbar-background-color: black;
+$text-color-on-dark:       #FFF;
+$text-color:               #111;
+$background-color:         #fdfdfd;
+$brand-color:              #D90009;
+$brand-color-on-dark:      lighten($brand-color, 15%);
+$alternative-color:        #1170A6;
+$link-color:               $alternative-color;
+$link-color-on-dark:       lighten($link-color, 15%);
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 15%);
+
+// Width of the content area
+$content-width:    600px;
+
+// MQ Breakpoints
+$on-palm:          420px;
+
+// Tables
+$tables-border-color: $grey-color;

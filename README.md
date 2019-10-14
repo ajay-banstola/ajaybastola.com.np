@@ -1,3 +1,3 @@
-# polarize-ai/blog
+The new version of my blog, based on Jekyll.
 
-Blog of polarize.ai
+Check it out on [andreaverlicchi.eu](http://www.andreaverlicchi.eu).

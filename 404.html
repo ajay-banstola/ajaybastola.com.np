@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<h1 class="post-title">Oops. This is embarassing...</h1>
+<h2>You probably stumbled upon a broken link.</h2>
+<p>Start over by one of the following pages:</p>
+<ul>
+    <li><a href="/">Blog</a></li>
+	{% for page in site.pages %}
+		{% if page.title %}
+			<li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+		{% endif %}
+	{% endfor %}
+</ul>
